@@ -1,0 +1,22 @@
+.footer{
+    background-color:black;
+    height: 250px;
+    width: 100%;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+
+.footer1{
+    color: gray;
+}
+
+.qrcode{
+    height: 150px;
+    width: 150px;
+    align-content: flex-end;
+   padding-left: 200px;
+
+}
