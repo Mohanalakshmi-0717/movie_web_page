@@ -1,12 +1,12 @@
-import React, { useState, useEffect,useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import "../components/card.css";
 import axios from 'axios';
 
 
-
+git 
 const Card = () => {
   const [movie, setMovie] = useState([]);
-  
+
   useEffect(() => {
     moviedetails();
   }, []);
