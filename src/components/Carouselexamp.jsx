@@ -1,5 +1,4 @@
 import React, { useState, useEffect} from 'react';
-import "./imageslider.css";
 import dora from "../Images/dora.jpg";
 import journey from "../Images/journey.jpg";
 import lost from "../Images/lost.jpg";

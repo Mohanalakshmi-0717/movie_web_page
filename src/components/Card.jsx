@@ -1,9 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import "../components/card.css";
 import axios from 'axios';
 
 
-git 
 const Card = () => {
   const [movie, setMovie] = useState([]);
 
@@ -20,7 +18,7 @@ const Card = () => {
     <div className="movie-wrapper">
       {movie.map((movies) => (
         <div key={movies.id}>
-          <img src={movies.poster} className='card' alt={movies.title} />
+          <img src={movies .poster} className='card' alt={movies.title} />
           <h3>{movies.title}</h3>
             <p>{movies.plot}</p>
          
